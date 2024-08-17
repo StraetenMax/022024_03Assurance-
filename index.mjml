@@ -1,0 +1,82 @@
+<mjml>
+<mj-head>
+    <mj-attributes>
+        <mj-class name="D-Admin" padding="0 10px" align="center" font-size="9px" font-weight="300" line-height="13px" color="#2D3748"/>
+        <mj-class name="D-Text" padding-left="80px" padding-right="80px" font-size="16px" font-weight="400" line-height="20px" color="#2D3748" />
+        <mj-all font-family="Arial, sans-serif" />
+    </mj-attributes>
+    <mj-title>Apprentissage</mj-title>
+    <mj-breakpoint width="480px"/>
+    <mj-style>
+        .hover:hover td, .hover:hover a{ background-color:#BA4995 !important; }
+
+        @media(max-width:480px){
+            .m-padding{
+                padding:10px 25px 2px 25px !important;       
+            }
+            .m-padding-big{
+                padding:0 25px 2px 25px !important;
+            }
+            .m-align div{
+                text-align:center !important;
+                padding:0 !important;
+            }
+
+        }
+
+    </mj-style>
+
+</mj-head>
+    <mj-body background-color="#F7FAFC">
+    <mj-section padding="0">
+        <mj-column>
+            <mj-text mj-class="D-Admin" padding="5px">
+                    Si vous ne parvienez pas à lire cet e-mail, cliquez <a href="{{ mirror}}">ici</a>
+                </mj-text>
+        </mj-column>
+    </mj-section>
+        <mj-section padding="0" background-color="#ffffff" >
+            <mj-column padding="0">
+            <mj-image padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/65df012c50523648e3f83f51.jpg" alt="logo de d'Ecosup Assurance" href="https://ecosup-assurance.fr" />            
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-text mj-class="D-Text"  css-class="m-padding" >Bonjour {{ contact.PRENOM }},</mj-text> 
+                <mj-text mj-class="D-Text"  css-class="m-padding"> Nous nous sommes rencontrés au <span style="font-weight:700">salon Studyrama de Marcq-en-Baroeul</span> pour une formation en alternance dans le domaine de la Banque Assurance. Je serais heureux de pouvoir vous accompagner sur votre projet.</mj-text> 
+                <mj-text mj-class="D-Text"  css-class="m-padding">Nous avons encore des postes disponibles pour vous chez nos partenaires Assureurs et Banques, en agence et service gestion, niveau BTS et Bachelor.</mj-text>  
+                <mj-text mj-class="D-Text"  padding-bottom="2px" css-class="m-padding" >
+                Contactez moi rapidement pour échanger à ce sujet : </mj-text>
+                <mj-text mj-class="D-Text" padding="0 80px 2px 80px" font-weight="700" css-class="m-padding-big">-<a style="text-decoration:none;color:#684092" href="tel:0616262619"> 06.16.26.26.19</a></mj-text> 
+                <mj-text mj-class="D-Text" padding="0 80px 2px 80px" css-class="m-padding-big">- 03.20.70.06.06</mj-text>
+                <mj-text mj-class="D-Text" padding="0 80px 2px 80px" css-class="m-padding-big">- ou cliquez ici pour postuler :</mj-text>
+                <mj-button css-class="hover" background-color="#684092" color="#ffffff" font-size="14px" text-transform="uppercase" href="https://forms.gle/vKEkMGoFDy5g52Rv7">
+                    Postuler
+                </mj-button>
+                <mj-text mj-class="D-Text"  css-class="m-padding">A très vite</mj-text>          
+                 <mj-text align="right" padding="15px 60px 2px 60px" font-size="14px" font-family="Arial, sans-serif" font-weight="400" line-height="16px" color="#2D3748" css-class="m-align">Christian <span style="font-weight:700">Annaloro</span>,</mj-text>
+                 <mj-text css-class="m-align" align="right" font-size="13px" font-family="Arial, sans-serif" font-weight="400" line-height="14px" color="#2D3748" padding="0 60px 2px 60px" >Responsable pédagogique</mj-text> 
+                 <mj-text css-class="m-align" align="right" font-size="13px" font-family="Arial, sans-serif" font-weight="400" line-height="14px" color="#2D3748" padding="0 60px 2px 60px">pôle Assurance</mj-text>          
+                 <mj-text css-class="m-align" align="right" font-size="13px" font-family="Arial, sans-serif" font-weight="400" line-height="14px" color="#2D3748" padding="0 60px 0 60px" >christian.annaloro@ecosup-campus.fr</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="30px 0 60px 0" background-color="#EDF2F7">
+            <mj-column padding="0px" >
+                <mj-text padding="0px" font-size="13px" color="#2D3748" text-transform="uppercase"  font-weight="700" padding-bottom="5px" align="center" >Ecosup campus</mj-text>
+                <mj-text padding="0px" font-size="12px" color="#2D3748" padding-bottom="5px" align="center" >17 rue Charles et Albert Roussel - <span style="text-transform:uppercase;">59200 tourcoing</span></mj-text>
+                <mj-text padding="0px" font-size="12px" color="#2D3748" padding-bottom="5px" align="center" ><span style="text-transform:uppercase;">tél. 03 20 70 06 06</span> - contact@ecosup-campus.fr</mj-text>
+                <mj-text padding="0px" font-size="12px" color="#2D3748" align="center" >© Ecosup Campus 2024</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                 <mj-text mj-class="D-Admin" padding-top="5px">
+                Pour être sûr(e) de recevoir nos communications, ajoutez contact@ecosup-campus.fr dans votre carnet d'adresses.    
+            </mj-text>
+            <mj-text mj-class="D-Admin" padding-bottom="5px">
+                Pour vous désinscrire de nos communications par courriel, cliquez <a href="{{ unsubscribe }}">ici</a>.
+            </mj-text> 
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
